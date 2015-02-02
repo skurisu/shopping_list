@@ -13,7 +13,7 @@ ShoppingListItem.prototype.uncheck = function () {
 };
 
 ShoppingListItem.prototype.render = function () {
-  console.log('<li class="completed_' + this.is_done + ' "> \
+  return ('<li class="completed_' + this.is_done + ' "> \
     <span>' + this.name + '</span> \
     <span>' + this.description + '</span> \
   </li>');
